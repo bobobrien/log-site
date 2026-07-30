@@ -147,6 +147,26 @@ ul.features li::before {
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
 
+/* "What is Log?" explainer (silent looping GIF; narrated mp4 one tap away) */
+.explainer {
+  margin: 28px 0 12px;
+}
+.explainer img {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.14);
+}
+.explainer figcaption {
+  text-align: center;
+  font-size: 13px;
+  color: var(--secondary);
+  margin-top: 10px;
+}
+
 /* Timeline motif (icon concept A) */
 .mock {
   border-left: 3px solid var(--hairline);
